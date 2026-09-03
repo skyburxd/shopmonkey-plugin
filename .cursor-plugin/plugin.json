@@ -1,0 +1,19 @@
+{
+  "name": "shopmonkey",
+  "version": "0.1.0",
+  "description": "ShopMonkey REST v3: orders, customers, and vehicles.",
+  "author": { "name": "Diego" },
+  "homepage": "https://shopmonkey.dev",
+  "keywords": ["shopmonkey", "automotive", "mcp"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SM_TOKEN": {
+        "type": "string",
+        "title": "ShopMonkey API token",
+        "description": "Bearer API key from ShopMonkey Settings → Integration → API Keys."
+      }
+    },
+    "required": ["SM_TOKEN"]
+  }
+}
