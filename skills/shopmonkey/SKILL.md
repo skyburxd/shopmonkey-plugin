@@ -1,5 +1,5 @@
 ---
-name: shopmonkey
+name: grokbot-shopmonkey-plugin
 description: Use when looking up or mutating ShopMonkey orders, customers, or vehicles via this plugin's MCP tools (REST v3). Prefer these tools over guessing endpoints or fields.
 ---
 

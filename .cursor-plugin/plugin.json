@@ -1,10 +1,10 @@
 {
-  "name": "shopmonkey",
+  "name": "grokbot-shopmonkey-plugin",
   "version": "0.1.0",
   "description": "ShopMonkey REST v3: orders, customers, and vehicles.",
   "author": { "name": "Diego" },
   "homepage": "https://shopmonkey.dev",
-  "keywords": ["shopmonkey", "automotive", "mcp"],
+  "keywords": ["shopmonkey", "automotive", "mcp", "grokbot"],
   "variables": {
     "type": "object",
     "properties": {
