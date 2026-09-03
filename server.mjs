@@ -10,7 +10,7 @@ import { Buffer } from "node:buffer";
 const BASE = "https://api.shopmonkey.cloud/v3";
 const MAX_CHARS = 200000;
 const PROTOCOL = "2024-11-05";
-const SERVER_INFO = { name: "shopmonkey", version: "0.1.0" };
+const SERVER_INFO = { name: "grokbot-shopmonkey-plugin", version: "0.1.0" };
 
 function log(...args) {
   console.error(...args);
@@ -561,4 +561,4 @@ process.stdin.on("end", () => {
 });
 
 process.stdin.resume();
-log("shopmonkey MCP server 0.1.0");
+log("grokbot-shopmonkey-plugin MCP server 0.1.0");
